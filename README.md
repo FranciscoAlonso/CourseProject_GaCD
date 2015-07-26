@@ -1,17 +1,19 @@
 
 #Course Project for Getting and Cleaning Data Course on Coursera by Jhons Hopkins University
-Solution by: Francisco Alonso, 
-Caracas - Venezuela, 
-francisco.a.alonso.s@gmail.com
+Solution by: 
+
+Francisco Alonso (francisco.a.alonso.s@gmail.com).
+Caracas - Venezuela. 
 
 Using the Human Activity Recognition Using Smartphones Dataset Version 1.0 [1]
 
 The assigment consists on one R script called run_analysis.R that does the following:
-	1. Merges the training and the test sets to create one data set.
-	2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-	3. Uses descriptive activity names to name the activities in the data set.
-	4. Appropriately labels the data set with descriptive variable names.
-	5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set.
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The files generated for this solution include:
 
@@ -27,7 +29,8 @@ After that, the columns are renamed to express clearly their content(4) and the 
 each Subject/Activity pair (5). Finally the Activity numbers are converted to their corresponding strings (3) and the tidy data is returned
 n the file "tidyDataSet.txt".
 
-=============================================================
+**Note**: The script should be in the same directory as the "test" and "train" directories, inside the "UCI HAR Dataset" directory.
+
 The original files on the dataset that were used in the assignment include:
 - 'README.txt'
 
