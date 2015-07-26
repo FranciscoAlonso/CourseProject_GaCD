@@ -76,6 +76,7 @@ run_analysis <- function()
   
   View(result)
   write.table(result, "tidyDataSet.txt", row.names = F)
+  #Uncomment the following two lines to read the output file and View the tidy dataSet
   #finaltest <- read.table("tidyDataSet.txt", header=TRUE)
   #View(finaltest)
 }
